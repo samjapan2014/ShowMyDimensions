@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
+import PhotoEditor from './PhotoEditor'; 
 import './App.css';
 
 function App() {
@@ -50,7 +51,8 @@ function App() {
         <p>Drag 'n' drop some files here, or click to select files</p>
       </div>
       <div className="image-display">
-        {selectedImage && <img src={selectedImage} alt="Selected" />}
+         {/* {selectedImage && <img src={selectedImage} alt="Selected" />} */}
+         {<PhotoEditor/>}
       </div>
       <div className="thumbnail-row">
         <button className="arrow left-arrow" onClick={previousImage}>{"<"}</button>
