@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.image-display {
+  width: 700px;
+  height: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  object-fit: contain; 
+}
+
+.thumbnail-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 60px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
+  overflow: hidden;
+  display: inline-block;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Add more styling as needed */
