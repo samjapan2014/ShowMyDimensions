@@ -52,7 +52,7 @@ function App() {
       </div>
       <div className="image-display">
          {/* {selectedImage && <img src={selectedImage} alt="Selected" />} */}
-         {<PhotoEditor/>}
+         {<PhotoEditor selectedImage={selectedImage}/>}
       </div>
       <div className="thumbnail-row">
         <button className="arrow left-arrow" onClick={previousImage}>{"<"}</button>
